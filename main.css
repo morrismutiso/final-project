@@ -1,0 +1,34 @@
+*{
+    font-family: poppins;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: blue;
+        position:absolute;
+        width: 100%;
+        position: fixed;
+        top:0;
+        z-index: 2;
+    }
+    .nav ul{
+        list-style-type:none;
+        overflow: hidden;
+        margin-right:20%;
+    }
+    .nav ul li{
+        float: left;
+    }
+    .nav ul li a{
+        color:black;
+        display: block;
+        text-decoration: none;
+        display: block;
+        padding: 30px 16px;
+        text-align: center;
+        
+    }
