@@ -56,6 +56,10 @@
             outline: none;
             cursor: pointer;
         }
+        .book:hover{
+            background-color: whitesmoke;
+            color: black;
+        }
         .about{
          margin-top: 100px;   
         }
