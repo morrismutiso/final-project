@@ -44,6 +44,7 @@
     .nav i span{
         color:purple;
         margin-left: 10px;
+    }
     .book{
             position: absolute;
             padding:14px 24px;
@@ -57,4 +58,4 @@
         }
         .about{
          margin-top: 100px;   
-        }}
+        }
