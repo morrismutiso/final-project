@@ -32,3 +32,29 @@
         text-align: center;
         
     }
+    .nav ul li a:hover{
+        background-color: white;
+        color: red;
+    }
+    .nav i{
+        margin-left: 5%;
+        font-size: 24px;
+        color: orangered;
+    }
+    .nav i span{
+        color:purple;
+        margin-left: 10px;
+    .book{
+            position: absolute;
+            padding:14px 24px;
+            width:180px;
+            border-radius:5px;
+            margin-left: 80%;
+            background-color: green;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        .about{
+         margin-top: 100px;   
+        }}
