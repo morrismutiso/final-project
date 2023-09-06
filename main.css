@@ -1,5 +1,5 @@
 *{
-    font-family: poppins;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
     margin:0;
     padding: 0;
@@ -55,6 +55,10 @@
             border: none;
             outline: none;
             cursor: pointer;
+        }
+        .book:hover{
+            background-color: whitesmoke;
+            color: black;
         }
         .about{
          margin-top: 100px;   
