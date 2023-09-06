@@ -15,12 +15,12 @@ h1 {
 
 .slider-frame {
     overflow: hidden;
-    width: 1200px;
-    height: 800px;
+    width: 800px;
+    height: 400px;
     margin-left: 360px;
     margin-top: 20px;
     object-fit: contain;
-    border-width: 1200px;
+    border-width: 800px;
     border-radius: 15px;
     margin-right: 200px;
 }
