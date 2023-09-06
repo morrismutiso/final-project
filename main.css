@@ -19,6 +19,9 @@ h1 {
     height: 800px;
     margin-left: 360px;
     margin-top: 20px;
+    object-fit: contain;
+    border-width: 1200px;
+    border-radius: 15px;
 }
 
 @-webkit-keyframes slide_animation {
@@ -70,8 +73,8 @@ h1 {
 }
 
 .img-container {
-    width: 2400px;
-    height: 1200px;
+    width: 1200px;
+    height: 800px;
     position: relative;
     float: left;
 }
