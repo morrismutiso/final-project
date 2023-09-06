@@ -7,20 +7,19 @@ body {
 #text {
     position: relative;
     float: left;
+    margin-right: 800px;
 }
 
 .slider-frame {
     overflow: hidden;
     width: 800px;
     height: 400px;
-    margin-left: 360px;
     margin-top: 20px;
     object-fit: fill;
     border-width: 800px;
     border-radius: 15px;
-    margin-right: 200px;
     position: relative;
-    float: right;
+    margin-right: 20px;
 }
 
 @-webkit-keyframes slide_animation {
