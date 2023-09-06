@@ -5,8 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Home Page</title>
+    <style type="text/css">
+       
+       #slider {
+        overflow: hidden;
+        width: 500px;
+       }
+
+       #slider figure {
+        position: relative;
+        width: 800%;
+        height: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite;
+       }
+
+       #slider figure img {
+        width: 10%;
+        float: left;
+       }
+
+       @keyframes slider {
+          0% {
+            left: 0%;
+          }
+
+          20% {
+            left: 0%;
+          }
+
+          25% {
+            left: -100%;
+          }
+
+          50% {
+            left: -100%;
+          }
+       }
+
+       
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div id="slider">
+            <figure>
+                <img class="img" src="images/loby-1.jpeg">
+                <img class="img" src="images/loby-2.jpeg">
+                <img class="img" src="images/loby-3.jpeg">
+            </figure>
+            
+        </div>
+    </div>
 </body>
 </html>
