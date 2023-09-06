@@ -197,6 +197,30 @@ section {
 }
 
 /* end */
+.about{
+ margin-top: 100px;
+}
+.about h2{
+        width: 100%;
+    }
+.about p{
+        width:100%;
+    }
+
+.about h2{
+    margin-left: 45%;
+    margin-top: 80px;
+    position: absolute;
+}
+.pic1 img{
+    float: left;
+    margin-left: 50px;
+}
+.about p{
+    margin-left: 45%;
+    margin-top: 120px;
+    position: absolute;
+}
 /* reservation */
 .reservation form {
   padding: 2rem;
