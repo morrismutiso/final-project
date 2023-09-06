@@ -8,6 +8,8 @@ body {
     position: absolute;
     margin-right: 850px;
     margin-top: 100px;
+    font-size: larger;
+    font-style: italic;
 }
 
 .slider-frame {
