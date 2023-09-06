@@ -1,14 +1,5 @@
-.container {
-    width: 1000px;
-    height: 500px;
-    margin: 20px auto;
-    display: flex;
-    border: 20px;
-    border-radius: 10px;
-}
-
-.img {
-    object-fit: contain;
-    width: 500px;
-    height: 250px;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
 }
