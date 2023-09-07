@@ -513,6 +513,26 @@ section {
 .footer .credit span {
   color: #020255;
 }
+/*---responsive styling----*/
+@media screen and (max-width: 768px){
+    .pic1 img{
+        display: block;
+        margin-top: 8px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about h2{
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about p{
+        width: 100%;
+        margin-top: 8px;
+    }
+}
 
 /*----responsive styling-----*/
 @media (max-width: 991px) {
