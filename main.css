@@ -222,9 +222,18 @@ section {
     position: absolute;
 }
 .services-section {
-    background-color: #f4f4f4;
     padding: 50px 0;
     text-align: center;
+    height: 100vh;
+    background:url("images/comfortable.jpg");
+    animation-name: section;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes section {
+    0% {background: url("images/comfortable.jpg");}
+    50% {background: url("images/dining1.jpg");}
+    100% {background: url("images/pool1.jpg");}
 }
 
 .service {
