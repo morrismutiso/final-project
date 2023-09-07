@@ -1,3 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+#text {
+    position: absolute;
+    margin-right: 850px;
+    margin-top: 100px;
+    font-size: larger;
+    font-style: italic;
+}
+
+.slider-frame {
+    overflow: hidden;
+    width: 800px;
+    height: 400px;
+    margin-top: 50px;
+    border-width: 800px;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 540px;
+}
+
+@-webkit-keyframes slide_animation {
+    0% {
+        left: 0px;
+    }
+    10% {
+        left: 0px;
+    }
+    20% {
+        left: 1200px;
+    }
+    30% {
+        left: 1200px;
+    }
+    40% {
+        left: 2400px;
+    }
+    50% {
+        left: 2400px;
+    }
+    60% {
+        left: 1200px;
+    }
+    70% {
+        left: 1200px;
+    }
+    80% {
+        left: 0px;
+    }
+    90% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.slide-images {
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container {
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    float: left;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
 * {
@@ -1552,4 +1631,16 @@ section {
     margin-right: 1rem;
     color: #020255;
   }
+}
+
+/* styling for gallery */
+.gallery {
+  box-sizing: border-box;
+  background: #020255;
+}
+.gallery h1 {
+  color: #ffd700;
+}
+.gallery h1 span {
+  color: aqua;
 }
