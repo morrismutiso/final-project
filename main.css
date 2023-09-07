@@ -77,7 +77,6 @@ body {
     position: relative;
     float: left;
 }
-=======
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
 * {
@@ -1623,4 +1622,16 @@ section {
     margin-right: 1rem;
     color: #020255;
   }
+}
+
+/* styling for gallery */
+.gallery {
+  box-sizing: border-box;
+  background: #020255;
+}
+.gallery h1 {
+  color: #ffd700;
+}
+.gallery h1 span {
+  color: aqua;
 }
